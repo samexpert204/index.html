@@ -1,0 +1,330 @@
+
+<h1 class="sr-only">Signarama Milwaukee SEO Performance Report —  1st Quartely Performance Report</h1>
+
+<style>
+  .rw{font-family:var(--font-sans);padding:0 0 2rem}
+  .hero{background:#0f2d5e;border-radius:12px;padding:2rem 2rem 1.5rem;margin-bottom:1.5rem;color:#fff}
+  .hero-tag{font-size:13px;letter-spacing:.12em;color:#7eb3e8;margin:0 0 6px;text-transform:uppercase}
+  .hero-name{font-size:22px;font-weight:500;margin:0 0 4px;color:#fff}
+  .hero-sub{font-size:13px;color:#aec9e8;margin:0 0 1.5rem}
+  .hero-meta{display:flex;gap:1.5rem;flex-wrap:wrap}
+  .hero-badge{font-size:12px;background:rgba(255,255,255,.1);border-radius:20px;padding:4px 12px;color:#c8dff4}
+  .kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:1.5rem}
+  .kpi{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:10px;padding:1rem 1.1rem;position:relative;overflow:hidden}
+  .kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:10px 10px 0 0}
+  .kpi.up::before{background:#1d9e75}
+  .kpi.dn::before{background:#e28a30}
+  .kpi.nt::before{background:#7f77dd}
+  .kpi-label{font-size:11px;color:var(--color-text-secondary);margin:0 0 6px}
+  .kpi-val{font-size:26px;font-weight:500;color:var(--color-text-primary);margin:0 0 4px;line-height:1.1}
+  .kpi-change{font-size:12px;font-weight:500}
+  .kpi.up .kpi-change{color:#0f6e56}
+  .kpi.dn .kpi-change{color:#ba6010}
+  .kpi.nt .kpi-change{color:#534ab7}
+  .sec{font-size:13px;font-weight:500;color:var(--color-text-secondary);letter-spacing:.08em;text-transform:uppercase;margin:0 0 .75rem;padding-bottom:6px;border-bottom:0.5px solid var(--color-border-tertiary)}
+  .cw{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:10px;padding:1.25rem;margin-bottom:1.25rem}
+  .leg{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:12px;font-size:12px;color:var(--color-text-secondary)}
+  .ld{width:10px;height:10px;border-radius:2px;display:inline-block;margin-right:4px;vertical-align:middle}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-bottom:1.25rem}
+  @media(max-width:560px){.two{grid-template-columns:1fr}}
+  .kw-table{width:100%;border-collapse:collapse;font-size:12px}
+  .kw-table th{font-size:11px;font-weight:500;color:var(--color-text-secondary);text-align:left;padding:6px 8px;border-bottom:0.5px solid var(--color-border-tertiary)}
+  .kw-table td{padding:7px 8px;border-bottom:0.5px solid var(--color-border-tertiary);color:var(--color-text-primary);vertical-align:middle}
+  .kw-table tr:last-child td{border-bottom:none}
+  .b-up{background:#eaf3de;color:#3b6d11;font-size:11px;border-radius:4px;padding:2px 7px;white-space:nowrap}
+  .b-dn{background:#faeeda;color:#854f0b;font-size:11px;border-radius:4px;padding:2px 7px;white-space:nowrap}
+  .b-nw{background:#EEEDFE;color:#3c3489;font-size:11px;border-radius:4px;padding:2px 7px;white-space:nowrap}
+  .bar-bg{background:var(--color-background-secondary);border-radius:4px;height:7px;width:100%}
+  .bar-f{height:7px;border-radius:4px}
+  .ins-list{list-style:none;padding:0;margin:0}
+  .ins-list li{display:flex;gap:10px;padding:8px 0;border-bottom:0.5px solid var(--color-border-tertiary);font-size:13px;color:var(--color-text-primary);line-height:1.5}
+  .ins-list li:last-child{border-bottom:none}
+  .ii{font-size:16px;flex-shrink:0;margin-top:1px}
+  .sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:1.25rem}
+  .sc{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:10px;padding:1rem}
+  .sn{font-size:22px;font-weight:500;color:#1a3c6e;margin-bottom:6px}
+  .st{font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:6px}
+  .sd{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+</style>
+
+<div class="rw">
+
+  <div class="hero">
+    <p class="hero-tag">SEO Performance Report — Q1 2026</p>
+    <p class="hero-name">Signarama Milwaukee</p>
+    <p class="hero-sub">milwaukee-signs.com &nbsp;·&nbsp; Data: Google Search Console</p>
+    <div class="hero-meta">
+      <span class="hero-badge">Jan – Mar 2026 vs Oct – Dec 2025</span>
+      <span class="hero-badge">Prepared April 2026</span>
+      <span class="hero-badge">43+ keywords ranking</span>
+    </div>
+  </div>
+
+  <div class="kpi-grid">
+    <div class="kpi up">
+      <p class="kpi-label">Total clicks</p>
+      <p class="kpi-val">68</p>
+      <p class="kpi-change">+47.8% vs prior period</p>
+    </div>
+    <div class="kpi up">
+      <p class="kpi-label">Total impressions</p>
+      <p class="kpi-val">18,320</p>
+      <p class="kpi-change">+104.5% vs prior period</p>
+    </div>
+    <div class="kpi up">
+      <p class="kpi-label">Keywords ranking</p>
+      <p class="kpi-val">43+</p>
+      <p class="kpi-change">+72% new keyword growth</p>
+    </div>
+    <div class="kpi nt">
+      <p class="kpi-label">Avg. CTR</p>
+      <p class="kpi-val">1.7%</p>
+      <p class="kpi-change">down from 2.1% (expansion phase)</p>
+    </div>
+    <div class="kpi up">
+      <p class="kpi-label">Top keyword position</p>
+      <p class="kpi-val">#2.1</p>
+      <p class="kpi-change">monument signs milwaukee</p>
+    </div>
+  </div>
+
+  <div class="two">
+    <div>
+      <p class="sec">CTR comparison by top keyword</p>
+      <div class="cw" style="margin-bottom:0">
+        <div class="leg">
+          <span><span class="ld" style="background:#7eb3e8"></span>Previous CTR</span>
+          <span><span class="ld" style="background:#1a3c6e"></span>Current CTR</span>
+        </div>
+        <div style="position:relative;width:100%;height:240px">
+          <canvas id="ctrChart" role="img" aria-label="Horizontal bar chart: vehicle wraps milwaukee CTR improved from 2.94% to 8.57%, sign companies near me from 1.63% to 3.92%.">Vehicle wraps: 2.94% to 8.57%. Sign companies near me: 1.63% to 3.92%. Sign printing: 0.95% to 2.11%.</canvas>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p class="sec">Impression volume by category</p>
+      <div class="cw" style="margin-bottom:0">
+        <div class="leg">
+          <span><span class="ld" style="background:#1a3c6e"></span>Brand 35%</span>
+          <span><span class="ld" style="background:#2e75b6"></span>Local signs 28%</span>
+          <span><span class="ld" style="background:#1d9e75"></span>Vehicle/fleet 22%</span>
+          <span><span class="ld" style="background:#aec9e8"></span>General 15%</span>
+        </div>
+        <div style="position:relative;width:100%;height:240px">
+          <canvas id="catChart" role="img" aria-label="Donut chart: brand terms 35%, local sign searches 28%, vehicle and fleet 22%, general signage 15%.">Brand 35%, local signs 28%, vehicle/fleet 22%, general 15%.</canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="sec">Search visibility funnel</p>
+  <div class="cw">
+    <div class="leg" style="justify-content:center">
+      <span><span class="ld" style="background:#1a3c6e"></span>Total impressions 18,320</span>
+      <span><span class="ld" style="background:#2e75b6"></span>Position 1–20 ~6,800</span>
+      <span><span class="ld" style="background:#7eb3e8"></span>Position 1–10 ~2,200</span>
+      <span><span class="ld" style="background:#1d9e75;border-radius:50%"></span>Clicks 68</span>
+    </div>
+    <div style="position:relative;width:100%;height:280px">
+      <canvas id="funnelPie" role="img" aria-label="Pie chart showing search visibility funnel: 18320 total impressions, 6800 in positions 1-20, 2200 in positions 1-10, and 68 actual clicks.">Total impressions 18320, positions 1-20: 6800, positions 1-10: 2200, clicks: 68.</canvas>
+    </div>
+    <p style="font-size:11px;color:var(--color-text-secondary);text-align:center;margin:8px 0 0">From total impressions down to clicks — each slice shows how visibility converts through ranking position and listing quality</p>
+  </div>
+
+  <p class="sec">Keyword position changes — top 10 tracked keywords</p>
+  <div class="cw">
+    <table class="kw-table">
+      <thead>
+        <tr>
+          <th>Keyword</th>
+          <th>Prev. position</th>
+          <th>Curr. position</th>
+          <th>CTR change</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="kwBody"></tbody>
+    </table>
+  </div>
+
+  <p class="sec">Monthly impressions trend (estimated)</p>
+  <div class="cw">
+    <div class="leg">
+      <span><span class="ld" style="background:#1a3c6e"></span>Impressions per month</span>
+      <span><span class="ld" style="background:#1d9e75"></span>Clicks per month</span>
+    </div>
+    <div style="position:relative;width:100%;height:200px">
+      <canvas id="trendChart" role="img" aria-label="Line chart: impressions grew from ~2900 in Oct 2025 to ~6500 in Mar 2026. Clicks grew from ~14 to ~26.">Impressions: 2900 Oct, 2980 Nov, 3080 Dec, 5800 Jan, 8600 Feb, 6500 Mar. Clicks: 14, 15, 17, 20, 22, 26.</canvas>
+    </div>
+  </div>
+
+  <p class="sec">Key wins & insights</p>
+  <div class="cw">
+    <ul class="ins-list">
+      <li><span class="ii">📈</span><span><strong>Impressions doubled (+104.5%)</strong> — The website now appears in 18,000+ Google searches per quarter, up from under 9,000. Signarama Milwaukee is being seen by twice as many potential customers.</span></li>
+      <li><span class="ii">🥇</span><span><strong>Monument signs milwaukee reached position #2.1</strong> — Ranking in the top 2 organic results places Signarama ahead of most local competitors for this high-value term.</span></li>
+      <li><span class="ii">🚗</span><span><strong>Vehicle wraps CTR surged 191%</strong> — CTR jumped from 2.94% to 8.57%, meaning nearly 1 in 12 searchers who see the listing now clicks through.</span></li>
+      <li><span class="ii">🔑</span><span><strong>18+ new keywords entered Google rankings</strong> — Including sign company milwaukee, milwaukee signage, and commercial sign companies. A broader keyword portfolio means more diverse traffic sources.</span></li>
+      <li><span class="ii">💡</span><span><strong>CTR dip is healthy</strong> — Average CTR moved from 2.1% to 1.7%, but total clicks still grew +47.8%. As new keywords climb to page one, CTR will recover and exceed prior levels.</span></li>
+    </ul>
+  </div>
+
+  <p class="sec">Next quarter strategy</p>
+  <div class="sgrid">
+    <div class="sc">
+      <div class="sn">01</div>
+      <div class="st">Zero-click keyword wins</div>
+      <div class="sd">Fleet graphics (1,160 impr), milwaukee billboards (682), partial vehicle wrap (546) — all ranking but never clicked. Optimize meta titles and descriptions to drive CTR.</div>
+    </div>
+    <div class="sc">
+      <div class="sn">02</div>
+      <div class="st">Push page-2 to page-1</div>
+      <div class="sd">Sign company near me (pos. 15.75), sign companies near me (15.53), sticker printing milwaukee (15.77) — all one push away from page one.</div>
+    </div>
+    <div class="sc">
+      <div class="sn">03</div>
+      <div class="st">Vehicle & fleet wrap pages</div>
+      <div class="sd">Strong CTR signals high demand. Expand with case studies, FAQs, and process pages. Target van wraps near me, partial car wraps, custom fleet graphics.</div>
+    </div>
+    <div class="sc">
+      <div class="sn">04</div>
+      <div class="st">Google Business & local citations</div>
+      <div class="sd">Strengthen Google Business Profile, ensure NAP consistency, and actively collect new reviews to boost local pack rankings for near me queries.</div>
+    </div>
+    <div class="sc">
+      <div class="sn">05</div>
+      <div class="st">Content expansion</div>
+      <div class="sd">Build a Milwaukee-focused content hub around high-volume terms: business signs, commercial signs, custom signage — supporting long-term authority growth.</div>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const isDark = matchMedia('(prefers-color-scheme: dark)').matches;
+const tc = isDark ? 'rgba(255,255,255,0.6)' : 'rgba(0,0,0,0.45)';
+const gc = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.06)';
+const bOpts = { responsive:true, maintainAspectRatio:false, plugins:{ legend:{ display:false }, tooltip:{ cornerRadius:6, padding:10 } } };
+
+new Chart(document.getElementById('ctrChart'), {
+  type:'bar',
+  data:{
+    labels:['vehicle wraps','sign co. near me','sign printing','yard signs','milwaukee signs','sign companies'],
+    datasets:[
+      { label:'Previous CTR %', data:[2.94,1.63,0.95,7.14,2.54,0.41], backgroundColor:'rgba(126,179,232,0.7)', borderRadius:3 },
+      { label:'Current CTR %',  data:[8.57,3.92,2.11,2.78,1.85,1.15], backgroundColor:'#1a3c6e', borderRadius:3 }
+    ]
+  },
+  options:{
+    ...bOpts,
+    indexAxis:'y',
+    scales:{
+      x:{ ticks:{ color:tc, font:{size:11}, callback:v=>v+'%' }, grid:{ color:gc }, border:{ display:false } },
+      y:{ ticks:{ color:tc, font:{size:11} }, grid:{ color:'transparent' }, border:{ display:false } }
+    }
+  }
+});
+
+new Chart(document.getElementById('catChart'), {
+  type:'doughnut',
+  data:{
+    labels:['Brand terms','Local sign searches','Vehicle & fleet','General signage'],
+    datasets:[{
+      data:[35,28,22,15],
+      backgroundColor:['#1a3c6e','#2e75b6','#1d9e75','#aec9e8'],
+      borderWidth:2,
+      borderColor: isDark ? '#1a1a2e' : '#fff',
+      hoverOffset:6
+    }]
+  },
+  options:{
+    ...bOpts,
+    cutout:'62%',
+    plugins:{
+      legend:{ display:false },
+      tooltip:{ callbacks:{ label:ctx=>' '+ctx.label+': '+ctx.raw+'%' } }
+    }
+  }
+});
+
+new Chart(document.getElementById('funnelPie'), {
+  type:'pie',
+  data:{
+    labels:[
+      'Impressions not in top 20 (~11,520)',
+      'Positions 11–20 (~4,600)',
+      'Positions 1–10 (~2,200)',
+      'Actual clicks (68)'
+    ],
+    datasets:[{
+      data:[11520, 4600, 2200, 68],
+      backgroundColor:['#d3e8f8','#7eb3e8','#2e75b6','#1d9e75'],
+      borderWidth:2,
+      borderColor: isDark ? '#1a1a2e' : '#fff',
+      hoverOffset:8
+    }]
+  },
+  options:{
+    ...bOpts,
+    plugins:{
+      legend:{ display:false },
+      tooltip:{
+        callbacks:{
+          label: ctx => {
+            const total = 18320;
+            const pct = ((ctx.raw / total)*100).toFixed(1);
+            return ' '+ctx.label+' — '+pct+'% of total';
+          }
+        }
+      }
+    }
+  }
+});
+
+new Chart(document.getElementById('trendChart'), {
+  type:'line',
+  data:{
+    labels:['Oct 25','Nov 25','Dec 25','Jan 26','Feb 26','Mar 26'],
+    datasets:[
+      { label:'Impressions', data:[2900,2980,3080,5800,8600,6500], borderColor:'#1a3c6e', backgroundColor:'rgba(26,60,110,0.07)', fill:true, tension:0.4, pointRadius:4, pointBackgroundColor:'#1a3c6e', yAxisID:'y1' },
+      { label:'Clicks', data:[14,15,17,20,22,26], borderColor:'#1d9e75', backgroundColor:'rgba(29,158,117,0.07)', fill:true, tension:0.4, pointRadius:4, pointBackgroundColor:'#1d9e75', borderDash:[5,3], yAxisID:'y2' }
+    ]
+  },
+  options:{
+    ...bOpts,
+    scales:{
+      x:{ ticks:{ color:tc, font:{size:12} }, grid:{ color:gc }, border:{ display:false } },
+      y1:{ position:'left',  ticks:{ color:tc, font:{size:11} }, grid:{ color:gc }, border:{ display:false } },
+      y2:{ position:'right', ticks:{ color:tc, font:{size:11} }, grid:{ display:false }, border:{ display:false } }
+    }
+  }
+});
+
+const kwData = [
+  { kw:'monument signs milwaukee', prev:5.30, curr:2.10, ctrPrev:'0%',    ctrCurr:'0.92%', s:'up' },
+  { kw:'vehicle wraps milwaukee',  prev:12.76,curr:13.94,ctrPrev:'2.94%', ctrCurr:'8.57%', s:'up' },
+  { kw:'sign companies near me',   prev:21.64,curr:15.53,ctrPrev:'1.63%', ctrCurr:'3.92%', s:'up' },
+  { kw:'milwaukee sign companies', prev:4.42, curr:6.64, ctrPrev:'0.41%', ctrCurr:'1.15%', s:'up' },
+  { kw:'sign printing',            prev:7.74, curr:7.24, ctrPrev:'0.95%', ctrCurr:'2.11%', s:'up' },
+  { kw:'sign company milwaukee',   prev:3.59, curr:5.60, ctrPrev:'0%',    ctrCurr:'0.30%', s:'new'},
+  { kw:'signarama milwaukee',      prev:2.31, curr:3.26, ctrPrev:'6.63%', ctrCurr:'1.95%', s:'dn' },
+  { kw:'signs milwaukee',          prev:4.29, curr:8.86, ctrPrev:'0.78%', ctrCurr:'1.40%', s:'up' },
+  { kw:'milwaukee signs',          prev:4.95, curr:5.93, ctrPrev:'2.54%', ctrCurr:'1.85%', s:'dn' },
+  { kw:'signarama (brand)',        prev:8.10, curr:8.67, ctrPrev:'0%',    ctrCurr:'0.15%', s:'new'},
+];
+const tbody = document.getElementById('kwBody');
+kwData.forEach(r => {
+  const arrow = r.curr < r.prev ? '▲' : (r.s==='new' ? '★' : '▼');
+  const pc = r.curr < r.prev ? '#0f6e56' : (r.s==='new' ? '#534ab7' : '#993c1d');
+  const badge = r.s==='up' ? `<span class="b-up">Improved</span>` : r.s==='new' ? `<span class="b-nw">New entry</span>` : `<span class="b-dn">Fluctuating</span>`;
+  const prevPct = Math.min(100,(r.prev/30)*100).toFixed(0);
+  tbody.innerHTML += `<tr>
+    <td style="font-weight:500">${r.kw}</td>
+    <td><div class="bar-bg"><div class="bar-f" style="width:${prevPct}%;background:#aec9e8"></div></div><span style="font-size:11px;color:var(--color-text-secondary)">${r.prev}</span></td>
+    <td><span style="font-size:13px;font-weight:500;color:${pc}">${arrow} ${r.curr}</span></td>
+    <td style="color:var(--color-text-secondary);font-size:12px">${r.ctrPrev} → <strong style="color:var(--color-text-primary)">${r.ctrCurr}</strong></td>
+    <td>${badge}</td>
+  </tr>`;
+});
+</script>
